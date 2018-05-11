@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Update Profile</title>
+</head>
+<body>
+  <form action="/updateprofile", method="get">
+    <br><br>
+    ID: <input type="text", name="id", value="{{ person['person_id'][0] }}">
+    <br>
+    First-Name: <input type="text", name="first_name", value="{{ person['first_name'][0] }}">
+    <br>
+    Last-Name: <input type="text", name="last_name", value="{{ person['last_name'][0] }}">
+    <br>
+    <input type="submit", value="submit"/>
+  </form>
+</body>
+</html>

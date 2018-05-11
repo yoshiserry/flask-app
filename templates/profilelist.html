@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Profile List</title>
+</head>
+<body>
+  <a href="/addprofileform">Add Profile</a>
+  <br><br>
+  <ul>
+    {% for entry in entries %}
+    <li>
+      {{ entry.person_id }} - {{ entry.first_name }} - {{ entry.last_name }} - <a href="editprofile?id={{ entry.person_id }}">Edit Profile</a> - <a href="deleteprofile?id={{ entry.person_id }}">Delete Profile</a>
+    {% endfor %}
+  </ul>
+</body>
+</html>
