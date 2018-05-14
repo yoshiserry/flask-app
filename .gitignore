@@ -6,6 +6,7 @@ f3/
 blog
 .DS_Store
 *.db
+venv
 
 #database files
 *.pyc
