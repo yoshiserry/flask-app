@@ -2,6 +2,8 @@
 
 file names 'app' and port numbers for heroku
 
+https://www.youtube.com/watch?v=3iSXIE7GPyE
+
 https://gist.github.com/KWMalik/3881785
 
 https://blog.heroku.com/python_and_django

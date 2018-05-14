@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Form Add Profile</title>
-</head>
-<body>
-  <form action="/addprofile", method="get">
+{% extends "index.html" %}
+
+{% block content %}
+<form action="/addprofile", method="get">
     <br><br>
     First-Name: <input type="text", name="first_name">
     <br>
@@ -15,3 +11,4 @@
   </form>
 </body>
 </html>
+{% endblock %}

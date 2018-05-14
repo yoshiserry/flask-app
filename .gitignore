@@ -1,6 +1,13 @@
-
+#virtual env
 f3/
 
+#mac temporary files
 \.DS_Store
 
+#database files
+*.pyc
+*.db
 myapp\.db
+
+#config files
+\config.py
