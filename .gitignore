@@ -14,4 +14,3 @@ venv
 myapp\.db
 
 #config files
-\config.py
