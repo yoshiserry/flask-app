@@ -3,6 +3,9 @@ f3/
 
 #mac temporary files
 \.DS_Store
+blog
+.DS_Store
+*.db
 
 #database files
 *.pyc
